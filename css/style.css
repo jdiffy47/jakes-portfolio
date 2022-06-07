@@ -1,12 +1,39 @@
 
+/* html {
+  box-sizing: border-box;
+} */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: #e5e5e5; */
 }
 
 body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  background-color: #83c5be;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav > div {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #edf6f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* body {
   background-color: #f4e285;
 }
 
@@ -16,13 +43,13 @@ header {
   padding: 20px;
   display: flex;
   /* justify-content: flex-end; */
-  align-items: center;
-  padding: 30px 10%; 
+  /* align-items: center;
+  padding: 30px 10%;  */
 }
 
 
 
-.navbar {
+/* .navbar {
   display: flex;
   font-family: 'Kdam Thmor Pro', sans-serif;
   font-family: 'Koulen', cursive;
@@ -31,35 +58,34 @@ header {
 }
 
 
-.nav-menu {
+/* .nav-menu {
   display: flex;
   /* flex-flow: row wrap;  */
   /* justify-content: flex-end; */
   /* justify-content: space-between; */
-  padding: 7px 14px;
-  list-style: none;
+  /* padding: 7px 14px;
+  list-style: none; */
 }
 
-li a {
+/* li a {
   text-decoration: none;
   color: #fff;
   background-color: #5b8e7d;
   padding: 7px 14px;
   border-radius: 4px;
   cursor: pointer;
-}
+} */
 
-.logo {
+/* .logo {
   width: 175px;
   height: 200px;
   cursor: pointer;
-  /* justify-self: flex-start; */
-}
+  justify-self: flex-start;
+} */
 
-.nav-links {
+/* .nav-links {
   transition: all 0.2s ease;
-}
-
+}  */
 
 
 
