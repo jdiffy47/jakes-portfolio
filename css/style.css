@@ -1,19 +1,69 @@
-html {
-  box-sizing: border-box
-}
-
-/* The Universal Selector */
-*, /* All elements*/
-*::before, /* All ::before pseudo-elements */
-*::after { /* All ::after pseudo-elements */
-  /* height & width will now include border & padding by default
-     but can be over-ridden as needed */
-  box-sizing: inherit;
-}
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* background-color: #e5e5e5; */
 }
+
+body {
+  background-color: #f4e285;
+}
+
+
+header {
+  background-color: #8cb369;
+  padding: 20px;
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  padding: 30px 10%; 
+}
+
+
+
+.navbar {
+  display: flex;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Koulen', cursive;
+  font-size: 16px;
+  /* justify-content: space-between; */
+}
+
+
+.nav-menu {
+  display: flex;
+  /* flex-flow: row wrap;  */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  padding: 7px 14px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #5b8e7d;
+  padding: 7px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 175px;
+  height: 200px;
+  cursor: pointer;
+  /* justify-self: flex-start; */
+}
+
+.nav-links {
+  transition: all 0.2s ease;
+}
+
+
+
+
+
+
+
 
