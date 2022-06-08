@@ -70,7 +70,7 @@ a {
   justify-content: center;
 }
 
-#home-container > img {
+#pic-of-me {
   margin: 0 5px;
 }
 
@@ -80,6 +80,11 @@ a {
 
 #work-container {
   display: flex;
+  justify-content: center;
+}
+
+#my-work {
+  margin: 0 5px;
 }
 
 
