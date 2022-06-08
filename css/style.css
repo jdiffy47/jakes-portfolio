@@ -1,7 +1,6 @@
 
-/* html {
-  box-sizing: border-box;
-} */
+
+/* full page styling */
 
 * {
   box-sizing: border-box;
@@ -9,11 +8,18 @@
   padding: 0;
 }
 
+
+
 body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   background-color: #ffddd2;
 }
+
+
+/* nav bar styling */
+
 
 nav {
   display: flex;
@@ -47,64 +53,21 @@ a {
   color: #edf6f9;
 }
 
+/* My home page styling  */
 
-
-
-
-
-/* body {
-  background-color: #f4e285;
+#home-heading {
+  text-align: center;
+  margin: 25px auto;
 }
 
-
-header {
-  background-color: #8cb369;
-  padding: 20px;
-  display: flex;
-  /* justify-content: flex-end; */
-  /* align-items: center;
-  padding: 30px 10%;  */
+#home-container {
+  display:flex;
+  justify-content: space-evenly;
 }
 
 
 
-/* .navbar {
-  display: flex;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  font-family: 'Koulen', cursive;
-  font-size: 16px;
-  /* justify-content: space-between; */
-}
 
-
-/* .nav-menu {
-  display: flex;
-  /* flex-flow: row wrap;  */
-  /* justify-content: flex-end; */
-  /* justify-content: space-between; */
-  /* padding: 7px 14px;
-  list-style: none; */
-}
-
-/* li a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #5b8e7d;
-  padding: 7px 14px;
-  border-radius: 4px;
-  cursor: pointer;
-} */
-
-/* .logo {
-  width: 175px;
-  height: 200px;
-  cursor: pointer;
-  justify-self: flex-start;
-} */
-
-/* .nav-links {
-  transition: all 0.2s ease;
-}  */
 
 
 
