@@ -68,6 +68,10 @@ a {
 #home-container {
   display: flex;
   justify-content: center;
+  /* border: solid red 1px; */
+  padding: 20px;
+  /* height: 50vh; */
+  flex-wrap: wrap;
 }
 
 #pic-of-me {
