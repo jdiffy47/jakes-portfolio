@@ -68,7 +68,7 @@ a {
 #home-container {
   display: flex;
   justify-content: center;
-  /* border: solid red 1px; */
+  border: solid red 1px;
   padding: 20px;
   /* height: 50vh; */
   flex-wrap: wrap;
@@ -79,16 +79,38 @@ a {
 }
 
 
-/* My work page styling  */
+/* My projects page styling  */
 
 
-#work-container {
+#project-container {
   display: flex;
   justify-content: center;
 }
 
-#my-work {
+#my-projects {
   margin: 0 5px;
+}
+
+
+/* My resume page styling  */
+
+
+
+
+/* My about page styling */
+
+
+
+/* My contact page styling */
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+i {
+  margin: 15px;
 }
 
 
