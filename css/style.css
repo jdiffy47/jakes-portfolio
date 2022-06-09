@@ -63,6 +63,11 @@ a {
   color: #a8dadc;
 }
 
+nav > a:hover {
+  background-color: #a8dadc;
+  color: #1d3557;
+}
+
 /* My home page styling  */
 
 
