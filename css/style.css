@@ -129,7 +129,7 @@ nav > a:hover {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  
+  color: #1d3557;
 }
 
 #resume-title {
@@ -139,6 +139,10 @@ nav > a:hover {
 #resume-img {
   height: 100px;
   width: 200px;
+}
+
+#resume-link {
+
 }
 
 /* My about page styling */
@@ -159,7 +163,7 @@ i {
   margin: 15px;
 }
 
-#contact-container > a {
+#contact-container > a, #resume-container > a {
   color: inherit;
 }
 
