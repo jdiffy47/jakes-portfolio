@@ -11,3 +11,11 @@ Link to my [trello](https://trello.com/b/OQez9BuG/portfolio-project)
 ## Screenshot
 
 ![snippet of portfolio](/assets/images/portfolio-snippet.jpg)
+
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+- Google Fonts
+- favicon.io
