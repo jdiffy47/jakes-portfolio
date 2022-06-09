@@ -118,7 +118,11 @@ a {
 }
 
 /* My resume page styling  */
-
+#resume-container {
+  display: flex;
+  justify-content: center;
+  border: solid #a8dadc 4px;
+}
 
 
 
