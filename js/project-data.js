@@ -12,3 +12,14 @@ let projectData = [
 export {
   projectData
 }
+
+
+let resumeData = [
+  {
+    image: '/assets/images/resume.jpg'
+  }
+]
+
+export {
+  resumeData
+}

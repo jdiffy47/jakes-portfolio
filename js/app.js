@@ -1,5 +1,7 @@
-// IMPORT DATA HERE
+// IMPORT DATA 
 import { projectData } from "./project-data.js"
+import { resumeData } from "./project-data.js"
+
 
 
 // CACHED ELEMENT REFERENCES
@@ -9,10 +11,11 @@ const resumeBtn = document.getElementById('resume-section')
 const aboutBtn = document.getElementById('about-section')
 const contactBtn = document.getElementById('contact-section')
 const projectContainer = document.getElementById('project-container')
+const resumeContainer = document.getElementById('resume-container')
 
 
 
-
+// APPEND TO HTML
 let projectMarkup = projectData.map(project =>
   `
       <img id="project-img" src="${project.image}" alt="">
@@ -20,9 +23,17 @@ let projectMarkup = projectData.map(project =>
       <div id="projects-btn">
         <a id="project-github" href="${project.github}" target ="_blank">GitHub</a>
         <a id="project-deploy" href="${project.deployment}" target ="_blank">Deployment</a>
-      </div>
   `
-  
   ).join('')
 
   projectContainer.innerHTML = projectMarkup
+
+
+  let resumeMarkup = resumeData.map(resume =>
+    `
+    <img id="resume-img" src="${resume.image}" alt="">
+    `
+    ).join('')
+
+  
+resumeContainer.innerHTML = resumeMarkup
