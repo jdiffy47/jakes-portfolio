@@ -138,6 +138,10 @@ i {
   margin: 15px;
 }
 
+#contact-container > a {
+  color: inherit;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
   nav > div {
