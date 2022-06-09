@@ -29,11 +29,11 @@ let projectMarkup = projectData.map(project =>
   projectContainer.innerHTML = projectMarkup
 
 
-  let resumeMarkup = resumeData.map(resume =>
-    `
-    <img id="resume-img" src="${resume.image}" alt="">
-    `
-    ).join('')
+//   let resumeMarkup = resumeData.map(resume =>
+//     `
+//     <img id="resume-img" src="${resume.image}" alt="">
+//     `
+//     ).join('')
 
   
-resumeContainer.innerHTML = resumeMarkup
+// resumeContainer.innerHTML = resumeMarkup

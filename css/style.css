@@ -120,8 +120,16 @@ a {
 /* My resume page styling  */
 #resume-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: solid #a8dadc 4px;
+  padding: 10px;
+  width:
+}
+
+#resume-title {
+  margin-bottom: 5px;
 }
 
 
