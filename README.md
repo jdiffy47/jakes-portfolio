@@ -19,3 +19,8 @@ Link to my [trello](https://trello.com/b/OQez9BuG/portfolio-project)
 - Javascript
 - Google Fonts
 - favicon.io
+
+## Next Steps
+
+- AAU, when viewing my 'Work' section, there should be a carousel containing my previous projects.
+- AAU, when viewing my home page, there should be an organized collage of pictures. 
