@@ -16,10 +16,11 @@ const projectContainer = document.getElementById('project-container')
 let projectMarkup = projectData.map(project =>
   `
       <img id="project-img" src="${project.image}" alt="">
-      <h3 id="project-title">${project.title}</h3>
-      <a id="project-github" href="${project.github}"></a>
-      <a id="project-deploy" href="${project.deployment}"></a>
-      <p id=#"project-descriptioni>${project.desciption}</p>
+      <p id="project-description">${project.desciption}</p>
+      <div id="projects-btn">
+        <a id="project-github" href="${project.github}" target ="_blank">GitHub</a>
+        <a id="project-deploy" href="${project.deployment}" target ="_blank">Deployment</a>
+      </div>
   `
   
   ).join('')

@@ -6,6 +6,7 @@ let projectData = [
     github: 'https://github.com/jdiffy47/ttt-weekend',
     desciption: 'A game to outsmart your opponent'
   }
+  
 ]
 
 export {
