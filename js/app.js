@@ -1,6 +1,5 @@
 // IMPORT DATA 
 import { projectData } from "./project-data.js"
-import { resumeData } from "./project-data.js"
 
 
 
@@ -11,7 +10,7 @@ const resumeBtn = document.getElementById('resume-section')
 const aboutBtn = document.getElementById('about-section')
 const contactBtn = document.getElementById('contact-section')
 const projectContainer = document.getElementById('project-container')
-const resumeContainer = document.getElementById('resume-container')
+
 
 
 
