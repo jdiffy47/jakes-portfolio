@@ -10,6 +10,22 @@ const resumeBtn = document.getElementById('resume-section')
 const aboutBtn = document.getElementById('about-section')
 const contactBtn = document.getElementById('contact-section')
 const projectContainer = document.getElementById('project-container')
+const body = document.querySelector("body")
+
+
+// FUNCTIONS
+function checkDarkPref() {
+  if (
+    window.matchMedia("(prefers-color-scheme:dark)").matches &&
+    body.className !== "dark"
+  ) {
+    toggleLightDark()
+  }
+}
+
+function toggleLightDark() {
+  body.className = body.className === "dark" ? "" : "dark"
+}
 
 
 
