@@ -13,6 +13,7 @@ const projectContainer = document.getElementById('project-container')
 const body = document.querySelector("body")
 
 
+
 // FUNCTIONS
 function checkDarkPref() {
   if (
@@ -44,3 +45,4 @@ let projectMarkup = projectData.map(project =>
   projectContainer.innerHTML = projectMarkup
 
 
+// EVENT LISTENERS
