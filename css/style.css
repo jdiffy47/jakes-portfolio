@@ -74,14 +74,25 @@ nav > a:hover {
 #home-container {
   display: flex;
   justify-content: center;
-  border: solid red 1px;
+  border: solid #1d3557 3px;
   padding: 20px;
-  /* height: 50vh; */
-  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #457b9d;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-#pic-of-me {
-  margin: 0 5px;
+
+
+#home-container > img {
+  height: 125px;
+  width: 125px;
+  margin: 0 15px;
+}
+
+#h3-headings {
+  display: flex;
+  justify-content: center;
 }
 
 
