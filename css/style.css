@@ -202,6 +202,9 @@ nav > a:hover {
   padding: 15px;
 }
 
+#contact-container > a {
+  margin-top: 15px;
+}
 
 #contact-container > a, #resume-container > a {
   color: inherit;
