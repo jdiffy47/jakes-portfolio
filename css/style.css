@@ -158,6 +158,33 @@ nav > a:hover {
 
 /* My about page styling */
 
+#about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+#about-container > img {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px 10px 0;
+  
+}
+
+#about-description {
+  text-align: center;
+  background-color: #457b9d;
+  color: #f1faee;
+  padding: 15px;
+  list-style: none;
+}
+
+#about-description > li {
+  margin: 10px auto;
+}
 
 
 /* My contact page styling */
@@ -192,9 +219,16 @@ i {
     flex-wrap: wrap;
   }
 
-}@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 768px) {
   #home-container > img {
     margin: 4px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about-container {
+    flex-wrap: wrap;
   }
 }
 
