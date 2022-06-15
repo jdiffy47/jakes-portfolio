@@ -79,9 +79,9 @@ a:hover {
 }
 
 
-#project-img {
-  max-height: 40vh;
-  max-width: 30vw;
+#home-img {
+  max-height: 100vh;
+  max-width: 100vw;
   margin-bottom: 15px;
 }
 
