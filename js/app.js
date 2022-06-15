@@ -45,4 +45,39 @@ let projectMarkup = projectData.map(project =>
   projectContainer.innerHTML = projectMarkup
 
 
+
+// VARIABLES
+
+
+
 // EVENT LISTENERS
+projectBtn.addEventListener('mouseover', function() {
+  projectBtn.style.border = 'solid #fca311 2px'
+  projectBtn.style.padding = "8px"
+  projectBtn.style.color = '#fff'
+})
+
+aboutBtn.addEventListener('mouseover', function() {
+  aboutBtn.style.border = 'solid #fca311 2px'
+  aboutBtn.style.padding = "8px"
+  aboutBtn.style.color = '#fff'
+})
+
+resumeBtn.addEventListener('mouseover', function() {
+  resumeBtn.style.border = 'solid #fca311 2px'
+  resumeBtn.style.padding = "8px"
+  resumeBtn.style.color = '#fff'
+})
+
+
+contactBtn.addEventListener('mouseover', function() {
+  contactBtn.style.border = 'solid #fca311 2px'
+  contactBtn.style.padding = "8px"
+  contactBtn.style.color = '#fff'
+})
+
+
+
+
+
+
