@@ -57,11 +57,23 @@ projectBtn.addEventListener('mouseover', function() {
   projectBtn.style.color = '#fff'
 })
 
+projectBtn.addEventListener('mouseout', function() {
+  projectBtn.style.border = 'none'
+  projectBtn.style.color = '#ffffff'
+  projectBtn.style.padding = '0'
+  })
+
 aboutBtn.addEventListener('mouseover', function() {
   aboutBtn.style.border = 'solid #fca311 2px'
   aboutBtn.style.padding = "8px"
   aboutBtn.style.color = '#fff'
 })
+
+aboutBtn.addEventListener('mouseout', function() {
+  aboutBtn.style.border = 'none'
+  aboutBtn.style.color = '#ffffff'
+  aboutBtn.style.padding = '0'
+  })
 
 resumeBtn.addEventListener('mouseover', function() {
   resumeBtn.style.border = 'solid #fca311 2px'
@@ -69,12 +81,24 @@ resumeBtn.addEventListener('mouseover', function() {
   resumeBtn.style.color = '#fff'
 })
 
+resumeBtn.addEventListener('mouseout', function() {
+  resumeBtn.style.border = 'none'
+  resumeBtn.style.color = '#ffffff'
+  resumeBtn.style.padding = '0'
+  })
+
 
 contactBtn.addEventListener('mouseover', function() {
   contactBtn.style.border = 'solid #fca311 2px'
   contactBtn.style.padding = "8px"
   contactBtn.style.color = '#fff'
 })
+
+contactBtn.addEventListener('mouseout', function() {
+  contactBtn.style.border = 'none'
+  contactBtn.style.color = '#ffffff'
+  contactBtn.style.padding = '0'
+  })
 
 
 
