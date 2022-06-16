@@ -206,8 +206,9 @@ a:hover {
   #home-heading {
     font-size: 20px;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 5px;
   }
 }
 
