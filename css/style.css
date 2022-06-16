@@ -187,11 +187,15 @@ a:hover {
     padding: 20px;
     margin-bottom: 0;
   }
+  .nav-bar > a {
+    font-size: 25px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   #home-container {
     justify-content: flex-start;
+    position: relative;
   }
   #home-img {
     max-height: 85vh;
@@ -199,8 +203,11 @@ a:hover {
   }
 
 @media screen and (min-width: 1024px) {
-  h2 {
-    font-size: 28px;
+  #home-heading {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
   }
 }
 
